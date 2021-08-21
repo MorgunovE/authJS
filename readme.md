@@ -67,3 +67,6 @@
 67. npm run build
 68. firebase deploy
 69. firebase dashbord /hosting/sites
+70. https://morgunove.github.io/authJS/publicOld/
+71. https://auth-js-153f4.web.app/
+72. https://auth-js-153f4.firebaseapp.com/
