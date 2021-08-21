@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="https://cdn.muicss.com/mui-latest/css/mui.min.css" rel="stylesheet" type="text/css"/>
+  <script src="https://cdn.muicss.com/mui-latest/js/mui.min.js"></script>
+  <!--  23-->
+  <title>Questions</title>
+</head>
+<body>
+<!--34-->
+<button class="floating-btn mui-btn mui-btn--fab mui-btn--accent" id="modal-btn">All</button>
+<div id="sidebar">
+  <!--  23-1-->
+  <div
+    class="mui--text-white mui--text-display1 mui--align-vertical"
+  >Questions
+    <br>
+    <small class="author">by author</small>
+  </div>
+</div>
+<div class="mui-container-fluid" id="content">
+  <div class="mui-row">
+    <div class="mui-col-sm-10 mui-col-sm-offset-1">
+      <br>
+      <br>
+      <div class="mui--text-black-54 mui--text-body2">Ask question</div>
+      <div class="mui-divider"></div>
+      <br>
+      <!--      23-2-->
+      <form class="mui-form" id="form">
+        <div class="mui-textfield mui-textfield--float-label">
+          <input
+            id="question-input"
+            maxlength="256"
+            minlength="10"
+            required
+            type="text"
+          >
+          <label for="question-input">What yours question</label>
+        </div>
+        <button
+          class="mui-btn mui-btn--raised mui-btn--primary"
+          disabled
+          id="submit"
+          type="submit"
+        >Ask question
+        </button>
+      </form>
+      <br>
+      <br>
+      <div class="mui--text-black-54 mui--text-body2">Your questions</div>
+      <div class="mui-divider"></div>
+      <br>
+      <!--      23-3-->
+      <div id="list"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
